@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Heading from './components/Heading/Heading';
+import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { useState, createContext } from 'react';
+
+import { data } from './data.js'
+
+export const ThemeContext = createContext();
+
+export default function App() {
+
+	const [theme, setTheme] = useState('dark')
+
+	const toggleTheme = () => {
+		setTheme(theme === 'dark' ? 'light' : 'dark')
+	}
+
+	const [datas, setDatas] = useState([...data])
+
+	return (
+		<ThemeContext.Provider value={{ theme, setTheme, toggleTheme, datas, setDatas }}>
+
+			<Heading />
+
+			<Content />
+
+			<Footer />
+		</ThemeContext.Provider>
+	);
 }
-
-export default App;

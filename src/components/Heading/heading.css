@@ -1,0 +1,8 @@
+.nav-link {
+    color: #000; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+    color: #ff69b4; /* Pink color on hover */
+}
