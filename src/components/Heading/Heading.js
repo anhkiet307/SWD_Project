@@ -6,14 +6,11 @@ import { ThemeContext } from "../../App";
 
 export default function Heading() {
 
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
 
     return (
         <nav className={`navbar navbar-expand-lg navbar-${theme} bg-${theme} fixed-top ${theme === 'light' ? 'border-bottom' : ''}`} style={{ marginBottom: '' }}>
-            <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon" />
-                </button>
+            <div className="container">
                 <a className="navbar-brand" href="/" style={{fontWeight:"bold"}}>
                     Resort Timeshare
                 </a>
@@ -71,3 +68,5 @@ export default function Heading() {
                         />
                             <label className={`form-check-label text-${theme === 'dark' ? 'light' : 'dark'}`} for="mySwitch">{theme} </label>
                     </div> */}
+
+                    

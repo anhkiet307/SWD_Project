@@ -1,11 +1,14 @@
-import { useContext } from 'react'
+import React from "react";
+
 import './home.css'
 
+import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import { ThemeContext } from '../../App'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Grid } from "@mui/material";
 
 export default function Home() {
-
     const { datas } = useContext(ThemeContext)
 
     const Item = ({ id, image, name, description }) => {
@@ -34,6 +37,7 @@ export default function Home() {
             <div>
                 <h1 style={{textAlign:"center", paddingBottom:"25px", fontWeight:"bold"}}>Welcome</h1>
             </div>
+
             <div className="row">
                 {
                     datas.map(item => (
@@ -46,8 +50,70 @@ export default function Home() {
                         />
                     ))
                 }
-
             </div>
+            <div>
+                <h4 style={{
+                    textAlign:"center",
+                    justifyItems:"center",
+                    paddingTop:"15px",
+                    
+                }}>
+                    Hotline: 0393021140
+                </h4>
+            </div>
+            <Grid item md={3} style={{ paddingLeft: "10px", padding: "10px" }}>
+                    <hr className="mt-0 mb-4" />
+                    <div className="d-flex justify-content-center">
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "#3b5998" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "facebook"]} />
+                      </a>
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "rgb(85, 172, 238)" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "twitter"]} />
+                      </a>
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "#dd4b39" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "google"]} />
+                      </a>
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "#ac2bac" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "instagram"]} />
+                      </a>
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "#0082ca" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+                      </a>
+                      <a
+                        href="#!"
+                        className="btn text-white btn-floating m-1 rounded-circle"
+                        style={{ backgroundColor: "#333333" }}
+                        role="button"
+                      >
+                        <FontAwesomeIcon icon={["fab", "github"]} />
+                      </a>
+                    </div>
+            </Grid>
         </div>
     )
 }

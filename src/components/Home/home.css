@@ -22,3 +22,14 @@
    object-fit: contain
   !important;
 }
+.btn-floating .fab {
+    width: var(--mdb-btn-icon-width);
+    line-height: var(--mdb-btn-icon-line-height);
+}
+.fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+.a.btn-floating {
+    justify-items: center;
+}

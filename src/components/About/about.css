@@ -22,18 +22,19 @@
 	font-size: 40px;
 	color: #FFFFFF;
 	opacity: 0.7;
-	background-color: #0827f1;
+	background-color: #d5e735;
 	border: 2px solid #17028d;
 
 	--webkit-transition:all .5s ease;
  	--moz-transition:all .5s ease;
  	--os-transition:all .5s ease;
  	transition:all .5s ease;
+	margin-bottom: 20px;
 
 }
 .about-item:hover span{
 	opacity: 1;	
-	border: 2px solid #CC0039;
+	border: 2px solid #643543;
 	font-size: 42px;
 	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
 	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
@@ -49,6 +50,6 @@
 }
 .about .lead{
 	color: rgb(1, 29, 27);
-	font-size: 14px;
+	
 	font-weight: bold;
 }
