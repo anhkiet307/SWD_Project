@@ -3,7 +3,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import News from "../News/News";
 import Contact from "../Contact/Contact";
-import Movie from "../Movie/Movie";
+import Card from "../Card/Card";
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
 
@@ -20,8 +20,8 @@ export default function Content() {
                 <Route path='/about' element={<About />} />
                 <Route path='/news' element={<News />} />
                 <Route path='/contact' element={<Contact />} />
-                <Route path="/movie/*">
-                    <Route path=":id" element={<Movie />} />
+                <Route path="/card/*">
+                    <Route path=":id" element={<Card/>} />
                 </Route>
             </Routes>
         </div>

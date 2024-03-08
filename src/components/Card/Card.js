@@ -15,7 +15,7 @@ export default function Card() {
     const ShowCard = () => {
         return (
             <div className=" d-flex justify-content-center align-items-center" >
-                <div className="card w-100" >
+                <div className="card w-100">
                     <div className="card-body row" >
 
                         <div className="d-flex justify-content-between">
@@ -26,30 +26,32 @@ export default function Card() {
                                 onClick={() => navigate(-1)}
                             ></button>
                         </div>
-
-                        <div className="col-md-6">
-                            <p className=""><span className="">• Category: {card.category}</span> </p>
+                        <div>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div className="col-md-5">
+                            <p className="card-text text-break text-capitalize w-100" style={{ marginRight: '2rem' }}><span className="fw-bold"> Information: </span> </p>
                             <p className=""><span className="">• Nation: {card.nation}</span> </p>
                             <p className=""><span className="">• Date: {card.releaseDate}</span> </p>
                             <p className=""><span className="">• Duration: {card.duration}'</span> </p>
                             <p className=""><span className="">• Director: {card.director}</span> </p>
                             <p className=""><span className="">• Actor:{card.actor}</span> </p>
+                            
                             <p className="card-text text-break text-capitalize w-100" style={{ marginRight: '2rem' }}><span className="fw-bold">Description:</span> {card.description}</p>
                         </div>
-                        <div className="col-md-6">
-                            
-                        </div>
-                    
-                    </div>
-
-                    <div className="mt-3 border-bottom pb-10">
+                        <div className="col-md-7">
                         <iframe src={card.trailer}
                             frameborder='0'
                             allow='autoplay; encrypted-media'
                             allowfullscreen
                             title='video'
-                            style={{ width: '100%', height: '700px' }}
+                            style={{ width: '100%', height: '480px' }}
                         />
+                        </div>
+                    
                     </div>
                 </div>
             </div>

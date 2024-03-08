@@ -67,7 +67,7 @@ export default function Home() {
                       <a
                         href="#!"
                         className="btn text-white btn-floating m-1 rounded-circle"
-                        style={{ backgroundColor: "#3b5998" }}
+                        style={{ backgroundColor: "#3b5998", size:"20px" }}
                         role="button"
                       >
                         <FontAwesomeIcon icon={["fab", "facebook"]} />

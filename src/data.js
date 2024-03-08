@@ -10,7 +10,7 @@ export const data = [
         "duration": "16 tập ",
         "releaseDate": "2021",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/440913072.jpg?k=7499a374ecdae4abddbad2fe2c2a64a25e1d182e1fdd2ffe8ed708f6c5fef364&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/DsodZLGmpIQ"
+        "trailer": "https://www.youtube.com/embed/SPgd4Tq-vX4?si=m-9xaDe7FxQ-N1fD"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2021",
         "image": "https://duan-sungroup.com/wp-content/uploads/2022/12/intercontinental-da-nang-sun-peninsula-resort-la-du-an-nghi-duong-dang-cap-quoc-te.png",
-        "trailer": "https://www.youtube.com/embed/bR5Il90f1vE"
+        "trailer": "https://www.youtube.com/embed/aUAtzGGAN7c?si=WEJ_D40T7_QB9Ajf"
     },
 
     {
@@ -37,7 +37,7 @@ export const data = [
         "duration": "20 tập",
         "releaseDate": "2019",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/10974229.jpg?k=3e57728938f3f60078eb2a25dcd2bb24c1908775e60bbe8bfdbc66b0f44b3e9a&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/6tOxnroOTWU",
+        "trailer": "https://www.youtube.com/embed/Hgs8_AIXAg0?si=YOxdsPnLLAOESdqg"
     },
     {
         "id": 4,
@@ -50,7 +50,7 @@ export const data = [
         "duration": "14 tập",
         "releaseDate": "2022",
         "image": "https://dulichkhampha24.com/wp-content/uploads/2020/07/Fusion-Maia-Resort-Da-Nang-ch.png",
-        "trailer": "https://www.youtube.com/embed/lqU_kT4L0FQ",
+        "trailer": "https://www.youtube.com/embed/Uz7mLCE2Mqc?si=AlxGmduDJ-MOH5lZ"
     },
     {
         "id": 5,
@@ -63,7 +63,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2016",
         "image": "https://www.americanexpress.com/en-us/travel/discover/photos/100508/60303/1200/Amanoi_Vietnam-Beach_Club.jpg",
-        "trailer": "https://www.youtube.com/embed/tyhnEHCUtv4",
+        "trailer": "https://www.youtube.com/embed/tyhnEHCUtv4"
     },
     {
         "id": 6,
@@ -76,7 +76,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2016",
         "image": "https://www.banyantree.com/assets/2022-11/bt-langco-accommodation-seaviewhillpoolvilla-privatepool2.jpg",
-        "trailer": "https://www.youtube.com/embed/-7OpOqzGEsA",
+        "trailer": "https://www.youtube.com/embed/-7OpOqzGEsA"
     },
     {
         "id": 7,
@@ -89,7 +89,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2015",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484154580.jpg?k=ab8dd98c760c112ea2672d58c06be5a671b7de4b6c0f36b460dade0b12040337&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/zSOA2D-zdoo",
+        "trailer": "https://www.youtube.com/embed/zSOA2D-zdoo"
     },
     {
         "id": 8,
@@ -102,7 +102,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2019",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/64070859.jpg?k=f340e2ee68e6e898a6d9200ade7ba0ad27836a5591549e896d607243c16e6c51&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/awawSG3XBks",
+        "trailer": "https://www.youtube.com/embed/awawSG3XBks"
     },
     {
         "id": 9,
@@ -115,7 +115,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2017",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/76547733.jpg?k=7fbbe8a5086cba583ab13153aaf2d38202861f9ae74729622e44599b1440e5dc&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/DrcrRO4zYS0",
+        "trailer": "https://www.youtube.com/embed/DrcrRO4zYS0"
     },
     {
         "id": 10,
@@ -124,11 +124,11 @@ export const data = [
         "description": "Situated on the picturesque shores of Cam Ranh Bay, Fusion Resort Cam Ranh offers guests a luxurious retreat with panoramic ocean views and world-class amenities. With its all-inclusive spa treatments and gourmet dining experiences, it's the perfect destination for travelers seeking relaxation and rejuvenation.",
         "nation": "Korea",
         "director": "Yu Je-won",
-        "actor": "	Lee Hye Ri, Park Bo Gum, Ryu Jun Yeol, Go Kyung Pyo",
+        "actor": "Lee Hye Ri, Park Bo Gum, Ryu Jun Yeol, Go Kyung Pyo",
         "duration": "16 tập",
         "releaseDate": "2015",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/254296350.jpg?k=148a2523232ecab666998dd618942fb7caac0991b3cfff54d19e2f7395df5eb8&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/SV5jPHCMoJY",
+        "trailer": "https://www.youtube.com/embed/SV5jPHCMoJY"
     },
     {
         "id": 11,
@@ -141,7 +141,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2019",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/447996343.jpg?k=c87e782a01e08bd8e0aa244061f4518f7727ebf29da7428dbcf2b6a56a7891d9&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/PTrCwc1SKUo",
+        "trailer": "https://www.youtube.com/embed/PTrCwc1SKUo"
     },
     {
         "id": 12,
@@ -154,7 +154,7 @@ export const data = [
         "duration": "16 tập",
         "releaseDate": "2022",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/136290539.jpg?k=e652f91bad1fcba0d939b0ac68d4a9b1a276ab5f4ab8bd4d2d7acddac5f59096&o=&hp=1",
-        "trailer": "https://www.youtube.com/embed/oqxAJKy0ii4",
+        "trailer": "https://www.youtube.com/embed/oqxAJKy0ii4"
     },
 
 ]

@@ -51,6 +51,15 @@ export default function Heading() {
                                 Contact
                             </NavLink>
                         </li>
+                        <li className="nav-item" >
+								<NavLink
+									to="/dashboard"
+									className={`nav-link ${({ isActive, isPending }) =>
+										isPending ? " pending" : isActive ? "active" : ""}`}
+								>
+									Dashboard
+							</NavLink>
+						</li>
                     </ul>
                 </div>
             </div>
